@@ -65,5 +65,17 @@ namespace MSP_Warehouse_2021
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.Show();
+        }
     }
 }

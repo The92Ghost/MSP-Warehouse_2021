@@ -70,6 +70,7 @@ namespace MSP_Warehouse_2021
             this.button3.TabIndex = 52;
             this.button3.Text = "Create account";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -80,6 +81,7 @@ namespace MSP_Warehouse_2021
             this.button2.TabIndex = 51;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
