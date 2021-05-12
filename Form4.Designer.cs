@@ -57,6 +57,7 @@ namespace MSP_Warehouse_2021
             this.button4.TabIndex = 101;
             this.button4.Text = "Export";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -66,6 +67,7 @@ namespace MSP_Warehouse_2021
             this.button3.TabIndex = 100;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -75,6 +77,7 @@ namespace MSP_Warehouse_2021
             this.button2.TabIndex = 99;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -84,6 +87,7 @@ namespace MSP_Warehouse_2021
             this.button1.TabIndex = 98;
             this.button1.Text = "Insert";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox4
             // 
@@ -182,6 +186,7 @@ namespace MSP_Warehouse_2021
             this.button5.TabIndex = 104;
             this.button5.Text = "Menu";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form4
             // 
