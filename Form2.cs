@@ -23,12 +23,7 @@ namespace MSP_Warehouse_2021
         SqlCommand mycommand;
         SqlDataAdapter adapt;
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'database1DataSet.Registration' table. You can move, or remove it, as needed.
-            this.registrationTableAdapter.Fill(this.database1DataSet.Registration);
-
-        }
+        
 
         private void displayData()
         {
@@ -63,6 +58,13 @@ namespace MSP_Warehouse_2021
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'database1DataSet2.Registration' table. You can move, or remove it, as needed.
+            this.registrationTableAdapter2.Fill(this.database1DataSet2.Registration);
+
         }
     }
 }
