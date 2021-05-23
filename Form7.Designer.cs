@@ -60,36 +60,42 @@ namespace MSP_Warehouse_2021
             this.registrationToolStripMenuItem.Name = "registrationToolStripMenuItem";
             this.registrationToolStripMenuItem.Size = new System.Drawing.Size(103, 24);
             this.registrationToolStripMenuItem.Text = "Registration";
+            this.registrationToolStripMenuItem.Click += new System.EventHandler(this.registrationToolStripMenuItem_Click);
             // 
             // itemsToolStripMenuItem
             // 
             this.itemsToolStripMenuItem.Name = "itemsToolStripMenuItem";
             this.itemsToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
             this.itemsToolStripMenuItem.Text = "Items";
+            this.itemsToolStripMenuItem.Click += new System.EventHandler(this.itemsToolStripMenuItem_Click);
             // 
             // warehousesToolStripMenuItem
             // 
             this.warehousesToolStripMenuItem.Name = "warehousesToolStripMenuItem";
             this.warehousesToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.warehousesToolStripMenuItem.Text = "Warehouses";
+            this.warehousesToolStripMenuItem.Click += new System.EventHandler(this.warehousesToolStripMenuItem_Click);
             // 
             // warehouseTypesToolStripMenuItem
             // 
             this.warehouseTypesToolStripMenuItem.Name = "warehouseTypesToolStripMenuItem";
             this.warehouseTypesToolStripMenuItem.Size = new System.Drawing.Size(137, 24);
             this.warehouseTypesToolStripMenuItem.Text = "Warehouse Types";
+            this.warehouseTypesToolStripMenuItem.Click += new System.EventHandler(this.warehouseTypesToolStripMenuItem_Click);
             // 
             // inventoryToolStripMenuItem
             // 
             this.inventoryToolStripMenuItem.Name = "inventoryToolStripMenuItem";
             this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.inventoryToolStripMenuItem.Text = "Inventory";
+            this.inventoryToolStripMenuItem.Click += new System.EventHandler(this.inventoryToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // Form7
             // 
