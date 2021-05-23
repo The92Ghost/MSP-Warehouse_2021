@@ -84,7 +84,25 @@ namespace MSP_Warehouse_2021
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                myConnection = new SqlConnection(frm.cs);
+                myCommand = new SqlCommand("delete WarehouseTypes where WarehouseName=@WarehouseName", myConnection);
+                myConnection.Open();
+                myCommand.Parameters.AddWithValue("@WarehouseName", textBox1.Text);
+                myCommand.ExecuteNonQuery();
+                myConnection.Close();
+                MessageBox.Show("Delete successfully!");
+                DisplayData();
+                if (myConnection.State == ConnectionState.Open)
+                {
+                    myConnection.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
