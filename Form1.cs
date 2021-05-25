@@ -23,6 +23,7 @@ namespace MSP_Warehouse_2021
         public SqlConnection myconnection = default(SqlConnection);
         public SqlCommand mycommand = default(SqlCommand);
 
+        [Obsolete]
         private void button1_Click(object sender, EventArgs e)
         {
             try
