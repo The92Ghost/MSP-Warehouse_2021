@@ -39,7 +39,6 @@ namespace MSP_Warehouse_2021
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,7 +46,7 @@ namespace MSP_Warehouse_2021
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(341, 359);
+            this.label4.Location = new System.Drawing.Point(170, 431);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 17);
@@ -56,17 +55,17 @@ namespace MSP_Warehouse_2021
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(453, 32);
+            this.button4.Location = new System.Drawing.Point(8, 12);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 41);
+            this.button4.Size = new System.Drawing.Size(74, 33);
             this.button4.TabIndex = 53;
             this.button4.Text = "Exit";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(453, 347);
+            this.button3.Location = new System.Drawing.Point(282, 419);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 41);
@@ -77,7 +76,7 @@ namespace MSP_Warehouse_2021
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(200, 274);
+            this.button2.Location = new System.Drawing.Point(135, 283);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 41);
@@ -88,7 +87,7 @@ namespace MSP_Warehouse_2021
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(56, 274);
+            this.button1.Location = new System.Drawing.Point(317, 283);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 41);
@@ -99,25 +98,25 @@ namespace MSP_Warehouse_2021
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(175, 209);
+            this.textBox2.Location = new System.Drawing.Point(222, 218);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(124, 22);
+            this.textBox2.Size = new System.Drawing.Size(215, 22);
             this.textBox2.TabIndex = 49;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(175, 156);
+            this.textBox1.Location = new System.Drawing.Point(222, 166);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(124, 22);
+            this.textBox1.Size = new System.Drawing.Size(215, 22);
             this.textBox1.TabIndex = 48;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(59, 209);
+            this.label3.Location = new System.Drawing.Point(132, 221);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 17);
@@ -127,30 +126,19 @@ namespace MSP_Warehouse_2021
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(59, 162);
+            this.label2.Location = new System.Drawing.Point(132, 169);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 17);
             this.label2.TabIndex = 46;
             this.label2.Text = "Username";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(59, 113);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 17);
-            this.label1.TabIndex = 45;
-            this.label1.Text = "Warehouse Login";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(56, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(135, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(264, 71);
+            this.pictureBox1.Size = new System.Drawing.Size(302, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 55;
             this.pictureBox1.TabStop = false;
@@ -160,7 +148,7 @@ namespace MSP_Warehouse_2021
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 412);
+            this.ClientSize = new System.Drawing.Size(563, 496);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button4);
@@ -171,7 +159,6 @@ namespace MSP_Warehouse_2021
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Login";
@@ -193,7 +180,6 @@ namespace MSP_Warehouse_2021
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
