@@ -82,7 +82,7 @@ namespace MSP_Warehouse_2021
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            pictureBox1.ImageLocation = "https://drive.google.com/file/d/1UzlLvk0tq2OdUKVTMC2TKZjkStLaDCmD/view?usp=sharing";
+            pictureBox1.ImageLocation = "https://i.ibb.co/GnF2dD8/Logo.png";
       
         }
     }
