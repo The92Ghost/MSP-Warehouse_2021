@@ -79,5 +79,10 @@ namespace MSP_Warehouse_2021
             Form2 frm = new Form2();
             frm.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.ImageLocation = "https://drive.google.com/file/d/1UzlLvk0tq2OdUKVTMC2TKZjkStLaDCmD/view?usp=sharing";
+        }
     }
 }
