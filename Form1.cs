@@ -115,5 +115,10 @@ namespace MSP_Warehouse_2021
         {
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

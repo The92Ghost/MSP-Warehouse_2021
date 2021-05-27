@@ -44,6 +44,7 @@ namespace MSP_Warehouse_2021
             this.label1 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -154,10 +155,10 @@ namespace MSP_Warehouse_2021
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(31, 72);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 52);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(315, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(342, 127);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 55;
             this.pictureBox1.TabStop = false;
@@ -167,7 +168,7 @@ namespace MSP_Warehouse_2021
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(121, 210);
+            this.label1.Location = new System.Drawing.Point(24, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(137, 41);
@@ -190,12 +191,23 @@ namespace MSP_Warehouse_2021
             this.label5.Text = "© 2021 Golden Lion ";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(28, 215);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(374, 17);
+            this.label6.TabIndex = 60;
+            this.label6.Text = "Warehousing Solutions For Small and Medium Enterprises";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(929, 464);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -233,6 +245,7 @@ namespace MSP_Warehouse_2021
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
