@@ -55,7 +55,11 @@ namespace MSP_Warehouse_2021
             // 
             // button4
             // 
+<<<<<<< HEAD
+            this.button4.Location = new System.Drawing.Point(453, 32);
+=======
             this.button4.Location = new System.Drawing.Point(8, 12);
+>>>>>>> 014b832253220305e256211dc4043e0033eee52e
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(74, 33);
@@ -65,7 +69,11 @@ namespace MSP_Warehouse_2021
             // 
             // button3
             // 
+<<<<<<< HEAD
+            this.button3.Location = new System.Drawing.Point(453, 347);
+=======
             this.button3.Location = new System.Drawing.Point(282, 419);
+>>>>>>> 014b832253220305e256211dc4043e0033eee52e
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 41);
@@ -76,7 +84,11 @@ namespace MSP_Warehouse_2021
             // 
             // button2
             // 
+<<<<<<< HEAD
+            this.button2.Location = new System.Drawing.Point(200, 260);
+=======
             this.button2.Location = new System.Drawing.Point(135, 283);
+>>>>>>> 014b832253220305e256211dc4043e0033eee52e
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 41);
@@ -87,7 +99,11 @@ namespace MSP_Warehouse_2021
             // 
             // button1
             // 
+<<<<<<< HEAD
+            this.button1.Location = new System.Drawing.Point(56, 260);
+=======
             this.button1.Location = new System.Drawing.Point(317, 283);
+>>>>>>> 014b832253220305e256211dc4043e0033eee52e
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 41);
@@ -98,7 +114,11 @@ namespace MSP_Warehouse_2021
             // 
             // textBox2
             // 
+<<<<<<< HEAD
+            this.textBox2.Location = new System.Drawing.Point(175, 177);
+=======
             this.textBox2.Location = new System.Drawing.Point(222, 218);
+>>>>>>> 014b832253220305e256211dc4043e0033eee52e
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
@@ -107,7 +127,11 @@ namespace MSP_Warehouse_2021
             // 
             // textBox1
             // 
+<<<<<<< HEAD
+            this.textBox1.Location = new System.Drawing.Point(175, 124);
+=======
             this.textBox1.Location = new System.Drawing.Point(222, 166);
+>>>>>>> 014b832253220305e256211dc4043e0033eee52e
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(215, 22);
