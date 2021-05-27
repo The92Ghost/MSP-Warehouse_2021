@@ -222,5 +222,10 @@ namespace MSP_Warehouse_2021
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

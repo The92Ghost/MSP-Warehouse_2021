@@ -202,7 +202,7 @@ namespace MSP_Warehouse_2021
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(25, 491);
+            this.button5.Location = new System.Drawing.Point(23, 491);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(147, 37);
@@ -214,11 +214,12 @@ namespace MSP_Warehouse_2021
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-3, 29);
+            this.pictureBox1.Location = new System.Drawing.Point(146, 9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 183);
+            this.pictureBox1.Size = new System.Drawing.Size(187, 183);
             this.pictureBox1.TabIndex = 105;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form4
             // 
