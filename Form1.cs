@@ -18,7 +18,7 @@ namespace MSP_Warehouse_2021
             InitializeComponent();
         }
 
-        public string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\source\repos\The92Ghost\MSP-Warehouse_2021\Database1.mdf;Integrated Security=True;Connect Timeout=30"; 
+        public string cs = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\source\repos\MSP-Warehouse_2021\Database1.mdf;Integrated Security=True;Connect Timeout=30"; 
 
         public SqlConnection myconnection = default(SqlConnection);
         public SqlCommand mycommand = default(SqlCommand);
