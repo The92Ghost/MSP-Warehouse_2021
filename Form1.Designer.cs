@@ -29,6 +29,7 @@ namespace MSP_Warehouse_2021
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label4 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -40,41 +41,43 @@ namespace MSP_Warehouse_2021
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(170, 431);
+            this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(461, 312);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 17);
+            this.label4.Size = new System.Drawing.Size(107, 22);
             this.label4.TabIndex = 54;
             this.label4.Text = "No account?";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button4
             // 
-<<<<<<< HEAD
-            this.button4.Location = new System.Drawing.Point(453, 32);
-=======
-            this.button4.Location = new System.Drawing.Point(8, 12);
->>>>>>> 014b832253220305e256211dc4043e0033eee52e
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Red;
+            this.button4.Location = new System.Drawing.Point(31, 358);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(74, 33);
+            this.button4.Size = new System.Drawing.Size(100, 49);
             this.button4.TabIndex = 53;
             this.button4.Text = "Exit";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-<<<<<<< HEAD
-            this.button3.Location = new System.Drawing.Point(453, 347);
-=======
-            this.button3.Location = new System.Drawing.Point(282, 419);
->>>>>>> 014b832253220305e256211dc4043e0033eee52e
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Olive;
+            this.button3.Location = new System.Drawing.Point(592, 303);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 41);
             this.button3.TabIndex = 52;
@@ -84,12 +87,10 @@ namespace MSP_Warehouse_2021
             // 
             // button2
             // 
-<<<<<<< HEAD
-            this.button2.Location = new System.Drawing.Point(200, 260);
-=======
-            this.button2.Location = new System.Drawing.Point(135, 283);
->>>>>>> 014b832253220305e256211dc4043e0033eee52e
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Blue;
+            this.button2.Location = new System.Drawing.Point(764, 303);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 41);
             this.button2.TabIndex = 51;
@@ -99,12 +100,10 @@ namespace MSP_Warehouse_2021
             // 
             // button1
             // 
-<<<<<<< HEAD
-            this.button1.Location = new System.Drawing.Point(56, 260);
-=======
-            this.button1.Location = new System.Drawing.Point(317, 283);
->>>>>>> 014b832253220305e256211dc4043e0033eee52e
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Green;
+            this.button1.Location = new System.Drawing.Point(543, 215);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 41);
             this.button1.TabIndex = 50;
@@ -114,65 +113,103 @@ namespace MSP_Warehouse_2021
             // 
             // textBox2
             // 
-<<<<<<< HEAD
-            this.textBox2.Location = new System.Drawing.Point(175, 177);
-=======
-            this.textBox2.Location = new System.Drawing.Point(222, 218);
->>>>>>> 014b832253220305e256211dc4043e0033eee52e
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(505, 132);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(215, 22);
+            this.textBox2.Size = new System.Drawing.Size(232, 30);
             this.textBox2.TabIndex = 49;
             // 
             // textBox1
             // 
-<<<<<<< HEAD
-            this.textBox1.Location = new System.Drawing.Point(175, 124);
-=======
-            this.textBox1.Location = new System.Drawing.Point(222, 166);
->>>>>>> 014b832253220305e256211dc4043e0033eee52e
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(505, 81);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(215, 22);
+            this.textBox1.Size = new System.Drawing.Size(232, 30);
             this.textBox1.TabIndex = 48;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(132, 221);
+            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(403, 132);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 17);
+            this.label3.Size = new System.Drawing.Size(78, 24);
             this.label3.TabIndex = 47;
             this.label3.Text = "Password";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(132, 169);
+            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(400, 83);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
+            this.label2.Size = new System.Drawing.Size(80, 24);
             this.label2.TabIndex = 46;
             this.label2.Text = "Username";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(135, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 52);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(302, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(342, 127);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 55;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(24, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(137, 41);
+            this.label1.TabIndex = 57;
+            this.label1.Text = "Welcome!";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(540, 390);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(139, 17);
+            this.label5.TabIndex = 59;
+            this.label5.Text = "© 2021 Golden Lion ";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(28, 215);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(374, 17);
+            this.label6.TabIndex = 60;
+            this.label6.Text = "Warehousing Solutions For Small and Medium Enterprises";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(563, 496);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(929, 464);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button4);
@@ -205,6 +242,10 @@ namespace MSP_Warehouse_2021
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
