@@ -110,13 +110,17 @@ namespace MSP_Warehouse_2021
             this.Close();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-
+            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
         }
+
 
         private void Form5_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'database1DataSet7.WarehouseTypes' table. You can move, or remove it, as needed.
+            this.warehouseTypesTableAdapter.Fill(this.database1DataSet7.WarehouseTypes);
 
         }
     }

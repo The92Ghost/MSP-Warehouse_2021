@@ -111,13 +111,18 @@ namespace MSP_Warehouse_2021
             this.Close();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-
+            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            textBox3.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
         }
+
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'database1DataSet3.Items' table. You can move, or remove it, as needed.
+            this.itemsTableAdapter.Fill(this.database1DataSet3.Items);
 
         }
     }

@@ -208,23 +208,21 @@ namespace MSP_Warehouse_2021
             this.Close();
         }
 
+        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            textBox3.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            textBox4.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+        }
+
+
         private void Form4_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
+            // TODO: This line of code loads data into the 'database1DataSet6.Inventory' table. You can move, or remove it, as needed.
+            this.inventoryTableAdapter.Fill(this.database1DataSet6.Inventory);
+            // TODO: This line of code loads data into the 'database1DataSet5.Warehouse' table. You can move, or remove it, as needed.
+            this.warehouseTableAdapter.Fill(this.database1DataSet5.Warehouse);
 
         }
     }

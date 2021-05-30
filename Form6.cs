@@ -300,5 +300,25 @@ namespace MSP_Warehouse_2021
             this.Close();
         }
 
+        private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            textBox2.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+            textBox3.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            textBox4.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            textBox5.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
+            textBox6.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
+            textBox7.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
+            textBox8.Text = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
+            textBox9.Text = dataGridView1.Rows[e.RowIndex].Cells[8].Value.ToString();
+        }
+
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'database1DataSet8.Inventory' table. You can move, or remove it, as needed.
+            this.inventoryTableAdapter.Fill(this.database1DataSet8.Inventory);
+
+        }
     }
 }

@@ -29,6 +29,7 @@ namespace MSP_Warehouse_2021
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -43,18 +44,25 @@ namespace MSP_Warehouse_2021
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.database1DataSet7 = new MSP_Warehouse_2021.Database1DataSet7();
+            this.warehouseTypesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.warehouseTypesTableAdapter = new MSP_Warehouse_2021.Database1DataSet7TableAdapters.WarehouseTypesTableAdapter();
+            this.warehouseNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stockTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.warehouseTypesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Firebrick;
-            this.button3.Location = new System.Drawing.Point(575, 360);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(504, 313);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(145, 33);
             this.button3.TabIndex = 69;
@@ -66,8 +74,8 @@ namespace MSP_Warehouse_2021
             // 
             this.button2.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button2.Location = new System.Drawing.Point(575, 307);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(504, 260);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(145, 33);
             this.button2.TabIndex = 70;
@@ -79,8 +87,8 @@ namespace MSP_Warehouse_2021
             // 
             this.button1.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(575, 255);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(504, 208);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(145, 33);
             this.button1.TabIndex = 68;
@@ -91,8 +99,8 @@ namespace MSP_Warehouse_2021
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(322, 341);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Location = new System.Drawing.Point(251, 294);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(205, 25);
             this.textBox2.TabIndex = 67;
@@ -100,8 +108,8 @@ namespace MSP_Warehouse_2021
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(322, 288);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Location = new System.Drawing.Point(251, 241);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(205, 25);
             this.textBox1.TabIndex = 66;
@@ -110,7 +118,7 @@ namespace MSP_Warehouse_2021
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(191, 339);
+            this.label3.Location = new System.Drawing.Point(120, 292);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 18);
@@ -121,7 +129,7 @@ namespace MSP_Warehouse_2021
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(191, 291);
+            this.label2.Location = new System.Drawing.Point(120, 244);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 18);
@@ -141,21 +149,25 @@ namespace MSP_Warehouse_2021
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(229, 22);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.warehouseNameDataGridViewTextBoxColumn,
+            this.stockTypeDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.warehouseTypesBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(279, 22);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(491, 204);
+            this.dataGridView1.Size = new System.Drawing.Size(370, 131);
             this.dataGridView1.TabIndex = 71;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Olive;
-            this.button4.Location = new System.Drawing.Point(16, 445);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(19, 383);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(97, 46);
             this.button4.TabIndex = 72;
@@ -190,12 +202,40 @@ namespace MSP_Warehouse_2021
             this.pictureBox3.TabIndex = 75;
             this.pictureBox3.TabStop = false;
             // 
+            // database1DataSet7
+            // 
+            this.database1DataSet7.DataSetName = "Database1DataSet7";
+            this.database1DataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // warehouseTypesBindingSource
+            // 
+            this.warehouseTypesBindingSource.DataMember = "WarehouseTypes";
+            this.warehouseTypesBindingSource.DataSource = this.database1DataSet7;
+            // 
+            // warehouseTypesTableAdapter
+            // 
+            this.warehouseTypesTableAdapter.ClearBeforeFill = true;
+            // 
+            // warehouseNameDataGridViewTextBoxColumn
+            // 
+            this.warehouseNameDataGridViewTextBoxColumn.DataPropertyName = "WarehouseName";
+            this.warehouseNameDataGridViewTextBoxColumn.HeaderText = "WarehouseName";
+            this.warehouseNameDataGridViewTextBoxColumn.Name = "warehouseNameDataGridViewTextBoxColumn";
+            this.warehouseNameDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // stockTypeDataGridViewTextBoxColumn
+            // 
+            this.stockTypeDataGridViewTextBoxColumn.DataPropertyName = "StockType";
+            this.stockTypeDataGridViewTextBoxColumn.HeaderText = "StockType";
+            this.stockTypeDataGridViewTextBoxColumn.Name = "stockTypeDataGridViewTextBoxColumn";
+            this.stockTypeDataGridViewTextBoxColumn.Width = 160;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(733, 500);
+            this.ClientSize = new System.Drawing.Size(671, 439);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -210,7 +250,7 @@ namespace MSP_Warehouse_2021
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form5";
             this.Text = "Warehouse Types";
             this.Load += new System.EventHandler(this.Form5_Load);
@@ -218,6 +258,8 @@ namespace MSP_Warehouse_2021
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.warehouseTypesBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,5 +280,10 @@ namespace MSP_Warehouse_2021
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private Database1DataSet7 database1DataSet7;
+        private System.Windows.Forms.BindingSource warehouseTypesBindingSource;
+        private Database1DataSet7TableAdapters.WarehouseTypesTableAdapter warehouseTypesTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn warehouseNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stockTypeDataGridViewTextBoxColumn;
     }
 }
