@@ -49,7 +49,7 @@ namespace MSP_Warehouse_2021
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Довиждане! :)", "Изход");
+            MessageBox.Show("Goodbye! :)", "Exit");
             Application.Exit();
         }
 

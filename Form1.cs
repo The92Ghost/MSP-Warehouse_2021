@@ -123,7 +123,7 @@ namespace MSP_Warehouse_2021
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Довиждане! :)", "Изход");
+            MessageBox.Show("Goodbye! :)", "Exit");
             Application.Exit();
         }
     }

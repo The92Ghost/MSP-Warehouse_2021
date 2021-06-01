@@ -48,12 +48,6 @@ namespace MSP_Warehouse_2021
             this.warehouseBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.database1DataSet5 = new MSP_Warehouse_2021.Database1DataSet5();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.inventoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.database1DataSet6 = new MSP_Warehouse_2021.Database1DataSet6();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.warehouseTableAdapter = new MSP_Warehouse_2021.Database1DataSet5TableAdapters.WarehouseTableAdapter();
-            this.inventoryTableAdapter = new MSP_Warehouse_2021.Database1DataSet6TableAdapters.InventoryTableAdapter();
             this.iDItemDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.itemNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,6 +57,12 @@ namespace MSP_Warehouse_2021
             this.articleGroupDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.measureDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.warehouseCodeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.inventoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet6 = new MSP_Warehouse_2021.Database1DataSet6();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.warehouseTableAdapter = new MSP_Warehouse_2021.Database1DataSet5TableAdapters.WarehouseTableAdapter();
+            this.inventoryTableAdapter = new MSP_Warehouse_2021.Database1DataSet6TableAdapters.InventoryTableAdapter();
             this.warehouseCodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.warehouseNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -228,7 +228,7 @@ namespace MSP_Warehouse_2021
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(629, 174);
+            this.dataGridView1.Size = new System.Drawing.Size(720, 174);
             this.dataGridView1.TabIndex = 102;
             // 
             // warehouseBindingSource
@@ -262,47 +262,6 @@ namespace MSP_Warehouse_2021
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(1047, 260);
             this.dataGridView2.TabIndex = 103;
-            // 
-            // inventoryBindingSource
-            // 
-            this.inventoryBindingSource.DataMember = "Inventory";
-            this.inventoryBindingSource.DataSource = this.database1DataSet6;
-            // 
-            // database1DataSet6
-            // 
-            this.database1DataSet6.DataSetName = "Database1DataSet6";
-            this.database1DataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Olive;
-            this.button5.Location = new System.Drawing.Point(16, 570);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(122, 42);
-            this.button5.TabIndex = 104;
-            this.button5.Text = "Menu";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(80, 82);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(186, 206);
-            this.pictureBox1.TabIndex = 105;
-            this.pictureBox1.TabStop = false;
-            // 
-            // warehouseTableAdapter
-            // 
-            this.warehouseTableAdapter.ClearBeforeFill = true;
-            // 
-            // inventoryTableAdapter
-            // 
-            this.inventoryTableAdapter.ClearBeforeFill = true;
             // 
             // iDItemDataGridViewTextBoxColumn
             // 
@@ -360,6 +319,47 @@ namespace MSP_Warehouse_2021
             this.warehouseCodeDataGridViewTextBoxColumn1.Name = "warehouseCodeDataGridViewTextBoxColumn1";
             this.warehouseCodeDataGridViewTextBoxColumn1.Width = 105;
             // 
+            // inventoryBindingSource
+            // 
+            this.inventoryBindingSource.DataMember = "Inventory";
+            this.inventoryBindingSource.DataSource = this.database1DataSet6;
+            // 
+            // database1DataSet6
+            // 
+            this.database1DataSet6.DataSetName = "Database1DataSet6";
+            this.database1DataSet6.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Olive;
+            this.button5.Location = new System.Drawing.Point(16, 570);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(122, 42);
+            this.button5.TabIndex = 104;
+            this.button5.Text = "Menu";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(80, 82);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(186, 206);
+            this.pictureBox1.TabIndex = 105;
+            this.pictureBox1.TabStop = false;
+            // 
+            // warehouseTableAdapter
+            // 
+            this.warehouseTableAdapter.ClearBeforeFill = true;
+            // 
+            // inventoryTableAdapter
+            // 
+            this.inventoryTableAdapter.ClearBeforeFill = true;
+            // 
             // warehouseCodeDataGridViewTextBoxColumn
             // 
             this.warehouseCodeDataGridViewTextBoxColumn.DataPropertyName = "WarehouseCode";
@@ -385,7 +385,7 @@ namespace MSP_Warehouse_2021
             this.addressDataGridViewTextBoxColumn.DataPropertyName = "Address";
             this.addressDataGridViewTextBoxColumn.HeaderText = "Address";
             this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            this.addressDataGridViewTextBoxColumn.Width = 250;
+            this.addressDataGridViewTextBoxColumn.Width = 340;
             // 
             // Form4
             // 
